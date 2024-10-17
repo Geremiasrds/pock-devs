@@ -2,6 +2,7 @@ body {
     font-family: "Poppins", sans-serif;
     background-image: url("../imagens/background.png");
     background-size: cover;
+ 
     background-position: center;
 }
 
@@ -20,7 +21,6 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-
     min-height: 100vh;
 }
 
@@ -45,7 +45,7 @@ main {
 .cartao-pokedev img {
     width: 100%;
     height: 100%;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .cartao-pokedev .cartao-topo {
@@ -95,7 +95,7 @@ main {
 }
 
 .tipo-eletrico {
-    background-color: #fcc719;
+    background-color:  hsl(61, 93%, 61%) ;
 }
 
 .tipo-fogo {
